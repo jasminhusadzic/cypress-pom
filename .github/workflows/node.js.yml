@@ -11,10 +11,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container: selenium/standalone-chrome
     env:
       SCREEN_WIDTH: 1920
       SCREEN_HEIGHT: 1080
-    container: elenium/standalone-chrome
     
     steps:
     - run: pwd

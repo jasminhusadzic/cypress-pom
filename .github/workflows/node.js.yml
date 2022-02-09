@@ -18,3 +18,4 @@ jobs:
     
     steps:
     - run: pwd
+    - run: echo $SCREEN_WIDTH

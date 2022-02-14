@@ -19,3 +19,4 @@ jobs:
     steps:
     - run: pwd
     - run: echo $SCREEN_WIDTH
+    - run: echo $GITHUB_ACTOR

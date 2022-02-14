@@ -19,4 +19,4 @@ jobs:
     steps:
     - run: pwd
     - run: echo $SCREEN_WIDTH
-    - run: echo "User is {{ $GITHUB_ACTOR }}"
+    - run: echo "User is {$GITHUB_ACTOR }"

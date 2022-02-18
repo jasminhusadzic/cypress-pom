@@ -9,11 +9,11 @@ describe('Community Page', () => {
         communityPage.open('https://web-lighthouse.qa.aplaceformom.com/community/atria-west-86-72892');
         communityPage.leadforms.exposed.submit()
 
-        // cy.visit('https://web-lighthouse.qa.aplaceformom.com/')
+        // cy.visit('https://web-lighthouse.dev.aplaceformom.com/')
         // cy.get('[data-au-id="leadform-location-search-input"]')
         //     .should('exist')
         //     .click()
         //     .clear()
-        //     .type(9)
+        //     .type(90210)
     })
 })

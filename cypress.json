@@ -1,5 +1,27 @@
 {
-    "baseUrl": "https://web-lighthouse.qa.aplaceformom.com/",
+    "baseUrl": "",
     "viewportHeight":1080,
-    "viewportWidth":1920
+    "viewportWidth":1920,
+    "env" : {
+
+        "server": {
+            
+            "dev": {
+                "non_cached": "https://www.dev.aplaceformom.com/",
+                "cached": "https://web-lighthouse.dev.aplaceformom.com/"
+            },
+
+            "qa": {
+
+            },
+
+            "stage": {
+
+            },
+
+            "prod": {
+
+            }
+        }
+    }
 }
